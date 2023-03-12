@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://rapidmobil.md/
+
+# Sitemaps
+Sitemap: https://rapidmobil.md/sitemap.xml
