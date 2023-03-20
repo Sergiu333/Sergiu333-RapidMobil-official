@@ -36,8 +36,8 @@ const Header = () => {
             <div
                 className="px-[20px] sm:px-[100px] md:px-[150px] bg-white h-[70px] lg:px-[200px] py-[20px] lg:py-[30px] 2xl:py-[55px] flex flex-row justify-between items-center">
                 <Link href="/" className="relative">
-                    <div className="w-[140px] h-[140px] 2xl:w-[232px] 2xl:h-[236px]">
-                        <Image src="/logo-rapid-mobil.png" alt="image news" layout="fill"  objectFit="contain"/>
+                    <div className="w-[70px] h-[70px] 2xl:w-[110px] 2xl:h-[110px]">
+                        <Image src="/logo-new.jpg" alt="image news" layout="fill"  objectFit="contain"/>
                     </div>
                 </Link>
                 <div className="flex flex-col lg:flex-row lg:gap-6">
