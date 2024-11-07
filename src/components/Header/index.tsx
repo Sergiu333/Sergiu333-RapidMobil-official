@@ -44,9 +44,9 @@ const Header = () => {
                     <Link href="tel://+37368069937">
                         <div className="ml-2 md:text-[20px] lg:text-[30px] whitespace-pre">+373 68 069 937</div>
                     </Link>
-                    <Link href="tel://+37369532892">
-                    <div className="ml-2 md:text-[20px] lg:text-[30px] whitespace-pre">+373 69 532 892</div>
-                </Link>
+                {/*    <Link href="tel://+37369532892">*/}
+                {/*    <div className="ml-2 md:text-[20px] lg:text-[30px] whitespace-pre">+373 69 532 892</div>*/}
+                {/*</Link>*/}
                 </div>
                 <div className="flex flex-row gap-[40px]">
                     <div className='relative z-[100]'>

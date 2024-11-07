@@ -34,7 +34,7 @@ const Footer = () => {
                         </div>
                         <div className="flex flex-col gap-2">
                             <div className="flex flex-row gap-10 items-center">
-                                <div className="flex items-center justify-center text-[30px]">1)</div>
+                                <div className="flex items-center justify-center text-[30px] hidden">1)</div>
                                 <Link href="https://www.facebook.com/rapidmobil.md?mibextid=ZbWKwL" target="_blank">
                                     <Image src="/facebook.svg" alt="facebook" width={24} height={44}/>
                                 </Link>
@@ -48,7 +48,7 @@ const Footer = () => {
                                     <Image src="/tik-tok.png" alt="instagram" width={40} height={40}/>
                                 </Link>
                             </div>
-                            <div className="flex flex-row gap-10 items-center">
+                            <div className="flex flex-row gap-10 items-center hidden">
                                 <div className="flex items-center justify-center text-[30px]">2)</div>
                                 <Link href="https://www.facebook.com/mobila.lacomanda.5817?mibextid=ZbWKwL" target="_blank">
                                     <Image src="/facebook.svg" alt="facebook" width={24} height={44}/>
@@ -102,11 +102,11 @@ const Footer = () => {
                                 +373 68 069 937
                             </div>
                         </Link>
-                        <Link href="tel://+37369532892">
-                            <div className="text-[#4D5053] text-[22px] leading-[33px] font-light tracking-1">
-                                +373 69 532 892
-                            </div>
-                        </Link>
+                        {/*<Link href="tel://+37369532892">*/}
+                        {/*    <div className="text-[#4D5053] text-[22px] leading-[33px] font-light tracking-1">*/}
+                        {/*        +373 69 532 892*/}
+                        {/*    </div>*/}
+                        {/*</Link>*/}
                     </div>
                 </div>
             </div>
